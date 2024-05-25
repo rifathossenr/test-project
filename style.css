@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Squada+One&family=Teko:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+body{
+    background-color: #0A2027;
+}
+
+h1{
+    font-family: "Squada One", sans-serif; 
+    font-size: 42px;
+    color: #fff;
+    margin: 40px 0px;
+}
+
+p{
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+header{
+    position: relative;
+}
+
+nav{
+    background-image: url(imgages/gym-hero-section.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px;
+    flex-wrap: wrap;
+}
+
+
+.menus{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+.menulist{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+
+.menus li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    transition: all .3s;
+}
+
+.menus li a:hover{
+    color: #CDEC00;
+}
+
+
+.btnenroll{
+    padding: 10px 35px;
+    border-radius: 5px;
+    border: none;
+    font-family: "Teko", sans-serif;
+    font-size: 20px;
+    width: fit-content;
+    cursor: pointer;
+    transition: all .3s;
+
+}
+
+.btnenroll:hover{
+    background-color: #CDEC00;
+    transform: scale(1.1);
+}
+
+
+
+.heropic{
+    color: #fff;
+    max-width: 600px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 150px 0px;
+}
+
+
+.heropic img{
+    width: 100%;
+}
+
+.heropic h1{
+    font-family: "Squada One", sans-serif;
+    font-size: 42px;
+    margin: 40px 0px;
+}
+
+.heropic p{
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+
+
+.titileimg{
+    display: grid;
+    place-items: center;
+    background-image: url(imgages/bg-graphics-gree-img.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    padding: 75px 0px;
+    width: 100%;
+    margin: 50px auto;
+}
+
+.titileimg img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+.maleimg{
+    padding: 40px 0px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 75px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin: 80px 0px;
+}
+
+.mailimgdiv img{
+    width: 100%;
+}
+
+.maleimg img{
+
+    width: 100%;
+    
+}
+
+
+
+
+.female{
+    text-align: right;
+}
+
+
+.recomendition{
+    display: flex;
+    place-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    TEXT-ALIGN: CENTER;
+}
+
+.recomendition img {
+    width: 60%;
+}
+
+.recomendition h4{
+    font-size: 30px;
+    color: #fff;
+    font-family: "Squada One", sans-serif;
+    margin: 25px 0px;
+}
+
+.recomendition button{
+    color: black;
+    font-size: 20px;
+    font-family: "Teko", sans-serif;
+    padding: 6px 36px 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.recomendition button span{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.recomendition button:hover{
+    background-color: #CDEC00;
+}
+
+.imgdivredy{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    justify-items: center;
+    text-align: center;
+    gap: 75px;
+}
+
+.redyfortitile {
+    text-align: center;
+    margin: 80px 0px;
+    font-family: "Squada One", sans-serif;
+    color: #fff;
+}
+
+.redyfortitile h2{
+    margin-bottom: 20px;
+    font-size: 60px;
+}
+
+.redyfortitile h3{
+    font-size: 30px;
+    margin-bottom: 60px;
+}
+
+.redyfortitile h4{
+    font-size: 42px;
+    margin-bottom: 30px;
+}
+
+.maledivimg{
+    background-image: url(imgages/bg-graphics-gree-img.png);
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.upfoot{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    justify-items: stretch;
+    align-items: center;
+    padding: 45px 0px;
+    gap: 25px;
+}
+
+.footlist{
+    list-style: none;
+    line-height: 1.8;
+}
+
+.footlist li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    display: block;
+
+}
+
+.footlinkdiv h2{
+    font-size: 30px;
+    text-transform: capitalize;
+    color: #fff;
+    margin-bottom: 40px;
+    font-family: "Squada One", sans-serif;
+}
+
+.scoiallink{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+
+}
+
+.scoiallink li a{
+    text-decoration: none;
+    color: #0A2027;
+    background-color: #fff;
+    padding: 10px;
+    display: block;
+
+}
+
+.copyrightsec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+footer{
+    background-image: linear-gradient(to right, #0a202700, #0a202700), url(imgages/footer-bg-free-img.jpg);
+    background-repeat: repeat;
+    background-position:center top;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+
+
+
+
+
+@media (max-width: 575.98px) { 
+
+    .container{
+        padding: 25px;
+    }
+    .heropic{
+        text-align: center;
+        margin: -100px auto;
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+
+    .menulist{
+        display: none;
+    }
+
+    .heropic img{
+        vertical-align: middle;
+        width: 80%;
+    }
+
+    .girlforntimg{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .female{
+        text-align:left
+    }
+
+    .recomendition img{
+        width: 80%;
+    }
+
+    .copyrightsec{
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 0px;
+    }
+
+
+
+
+
+}
+
+
+@media (max-width: 767.98px) { 
+
+    .container{
+        padding: 20px;
+    }
+
+    .copyrightsec{
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+
+}
+
+
+@media (max-width: 991.98px) {
+
+    .container{
+        padding: 20px;
+    }
+
+    .maledivimg img {
+        width: 50%;
+    }
+
+    
+
+}
+
