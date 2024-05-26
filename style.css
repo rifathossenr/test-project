@@ -264,7 +264,12 @@ nav{
     color: #fff;
     font-family: "Roboto", sans-serif;
     display: block;
+    transition: all .3s;
+}
 
+.footlist li a:hover {
+    color: yellow;
+    transform: translateX(8px);
 }
 
 .footlinkdiv h2{
@@ -288,7 +293,12 @@ nav{
     background-color: #fff;
     padding: 10px;
     display: block;
+    transition: all .3s;
+}
 
+.scoiallink li a:hover {
+    background-color: #cdec00;
+    transform: translateY(-5px);
 }
 
 .copyrightsec{
@@ -362,7 +372,7 @@ footer{
 @media (max-width: 767.98px) { 
 
     .container{
-        padding: 20px;
+        padding: 25px;
     }
 
     .copyrightsec{
@@ -371,13 +381,17 @@ footer{
         gap: 25px;
     }
 
+    .menulist{
+        display: none;
+    }
+
 }
 
 
 @media (max-width: 991.98px) {
 
     .container{
-        padding: 20px;
+        padding: 25px;
     }
 
     .maledivimg img {
@@ -387,4 +401,3 @@ footer{
     
 
 }
-
